@@ -8,7 +8,9 @@ If you haven't started working locally and would like to have access to an exist
   git clone https://github.com/username/reponame.git
 ```
 In order to get your repo link, you'll need to navigate to your repository home page, click on the green "Code" button, and copy the HTTPS link that appears.
+
 ![](images/clonerepourl.png)
+
 After cloning, you can switch into the repository directory with `cd reponame`.
 
 
