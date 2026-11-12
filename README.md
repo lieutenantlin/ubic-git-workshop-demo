@@ -8,10 +8,11 @@ If you haven't started working locally and would like to have access to an exist
   git clone https://github.com/username/reponame.git
 ```
 In order to get your repo link, you'll need to navigate to your repository home page, click on the green "Code" button, and copy the HTTPS link that appears.
+![](images/clonerepourl.png)
 After cloning, you can switch into the repository directory with `cd reponame`.
 
 
-On the other hand, if you've already created a local repository with `git init` and would like to connect it to a remote repository created through GitHub, you can use the following command:
+On the other hand, if you've already created a local repository with `git init` and would like to connect it to a remote repository created through GitHub, you can use the following command (follow the instructions above to get the repository link):
 ```
 git remote add origin https://github.com/username/reponame.git
 ```
