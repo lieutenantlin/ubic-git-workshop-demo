@@ -30,9 +30,11 @@ Merge conflicts happen when two branches change the same line of code.
 Open README.md. You will see the conflict. The text above the ===== line is your change, and the text below is the original. Decide what the changed line should be, then delete the marker lines (these lines: <<<<<< ====== >>>>>>).
 
 Lastly, run these commands:
-`
-git add README.md
-git commit -m "Resolve merge conflict"
-git push origin main`
+
+`git add README.md`
+
+`git commit -m "Resolve merge conflict"`
+
+`git push origin main`
 
 When you open README.md, there should be no more markers left.
