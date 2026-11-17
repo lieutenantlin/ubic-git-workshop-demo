@@ -24,6 +24,36 @@ git config --list
 ```
 You now have Git installed locally and it's ready to be used!
 
+
+## Setting up a Local Project Repository
+
+First, create the folder on your local device where you want to host your git repository:
+
+```
+mkdir my_github_workshop_project 
+cd my_github_workshop_project
+```
+
+Then, run the following command to initialize this as your repo:
+
+```
+git init
+```
+
+A good project is organized so that anyone viewing your work can quickly know where to look for a given project component. Recreate this project structure on your repository (you can use command-line tools or file explorer):
+
+```
+my_github_workshop_project/
+├── README.md 
+├── scripts/
+├── notebooks/ 
+├── results/
+├── figures/ 
+├── data/ 
+├── env/
+└── docs/
+```
+
 ## Connecting your local work to a GitHub repository
 
 If you haven't started working locally and would like to have access to an existing GitHub repository on your machine, you can clone it with the following command:
@@ -35,7 +65,6 @@ In order to get your repo link, you'll need to navigate to your repository home 
 ![](images/clonerepourl.png)
 
 After cloning, you can switch into the repository directory with `cd reponame`.
-
 
 On the other hand, if you've already created a local repository with `git init` and would like to connect it to a remote repository created through GitHub, you can use the following command (follow the instructions above to get the repository link):
 ```
