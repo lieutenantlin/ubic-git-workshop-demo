@@ -117,9 +117,13 @@ Merge conflicts happen when two branches change the same line of code.
 
 `git checkout -b yourname/conflict-practice`
 
-2. Edit a line in README.md: For example, you can change the title. Once you're done, state and commit your changes.
+2. Edit a line in README.md: For example, you can change the title. Once you're done, state and commit your changes. Use commands like this:
 
-3. Switch back to the main branch:
+`git add README.md`
+
+`git commit -m "Change title on practice branch"`
+
+4. Switch back to the main branch:
 
 `git checkout main`
 
