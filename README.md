@@ -123,6 +123,8 @@ Merge conflicts happen when two branches change the same line of code.
 
 `git checkout main`
 
+Make sure to pull the latest updates with `git pull origin main`
+
 4. Edit the same line in README.md, and stage and commit your changes.
 
 5. Merge the practice branch into main:
@@ -142,3 +144,11 @@ Lastly, run these commands:
 `git push origin main`
 
 When you open README.md, there should be no more markers left.
+
+### Merging changes in the GitHub website
+
+You're also able to fix merge conflicts using the "Resolve conflicts" button in GitHub. It's useful for small edits or text-only changes, but it makes it hard to test and run the code being changed. This only works when you have an open Pull Request (PR) with the conflict. 
+
+### What's a PR?
+
+Pull Requests (PR) are standard in CS/Bioinformatics projects. When working in a team, you shouldn't be merging directly to main - you'd want someone else to review your code before it goes to production (especially with CI/CD). What you do instead is push your branch to GitHub and open a PR, which tells your teammates to review your code before merging it into main. While we're not going over this today, it's something that is essential to know when working in a team.
